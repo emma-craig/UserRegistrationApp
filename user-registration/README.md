@@ -70,18 +70,21 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
-1. Build a User Registration Form
+
+### Build a User Registration Form
 Create a user registration form with fields for username, email, and password. Validate inputs and display appropriate error messages.
 
-Skills tested: Form handling, input validation, state management
-Difficulty: Easy
-Tasks:
+### Skills tested: 
+Form handling, input validation, state management
 
+### Difficulty: Easy
+
+### Tasks:
 Implement the user registration form UI
 Validate the form inputs and display error messages
 Integrate form submission with a mock API call (simulated delay).
 Add a success message upon successful registration
-Hints:
 
+### Hints:
 Create a controlled form component with state to manage input values.
 Use regular expressions or a library like Yup for input validation.

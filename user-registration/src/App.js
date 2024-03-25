@@ -36,19 +36,19 @@ function App() {
         <label htmlFor="username">User name:</label>
         <input
           name="username"
-          value={formData.username}
+          value={formData.username || ''}
           onChange={handleTextInput}></input>
 
         <label htmlFor="email">Email:</label>
         <input
           name="email"
-          value={formData.email}
+          value={formData.email ||''}
           onChange={handleTextInput}></input>
 
         <label htmlFor="password">Password:</label>
         <input
           name="password"
-          value={formData.password}
+          value={formData.password || ''}
           onChange={handleTextInput}></input>
 
         <button type="submit">Go</button>
