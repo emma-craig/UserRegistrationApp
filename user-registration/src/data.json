@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "username": "Emma",
+      "email": "emma.test@test.com",
+      "password": "password123",
+      "id": "ac1f"
+    },
+    {
+      "username": "Jane",
+      "email": "jane.test@test.com",
+      "password": "password456",
+      "id": "0221"
+    },
+    {
+      "username": "Eliza",
+      "email": "eliza.test@test.com",
+      "password": "password123",
+      "id": "0ed5"
+    },
+    {
+      "id": "cc7e",
+      "username": "jeremy",
+      "email": "emma.craig@getflowbox.com",
+      "password": "jsdhfjkhsdkjf"
+    }
+  ]
+}
