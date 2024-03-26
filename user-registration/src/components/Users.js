@@ -1,16 +1,12 @@
-import { useEffect, useState } from 'react';
+import { useContext} from 'react';
+import UserContext from '../contexts/UserContext';
 const Users = () => {
-  const [users, setUsers] = useState([]);
-  useEffect(() => {
-    fetch('http://localhost:8000/users')
-      .then((res) => res.json())
-      .then((data) => setUsers(data));
-  }, []);
+
+const users = useContext(UserContext)
 
   return (
     <div>
       <h1>List of users</h1>
-      {/* map through users */}
       {users.map((user, index) => (
         <div key={index}>{user.username}</div>
       ))}
